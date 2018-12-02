@@ -1,5 +1,7 @@
 package challenge;
 //Heello this is a locl copy dont do anything there
+//this is my new brac h
+
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
@@ -20,6 +22,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DriverSetup{
 	public static void main(String[] args) {
 	WebDriver driver;
+	
+	int test;
 	try {
 		System.setProperty("webdriver.chrome.driver", "C:\\Eclipse\\chromedriver.exe");
 		driver = new ChromeDriver();
